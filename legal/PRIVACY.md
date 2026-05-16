@@ -1,30 +1,30 @@
-# Blah2Text Privacy Policy
+# Voxmelt Privacy Policy
 
 **Version:** 1.0
 **Effective date:** 12 May 2026
-**Applies to:** the Blah2Text desktop application AND any future website
-operated by Blah2Text at the blah2text.com domain.
+**Applies to:** the Voxmelt desktop application AND any future website
+operated by Voxmelt at the voxmelt.com domain.
 
 ---
 
-We at Blah2Text ("we", "us", "our") respect your privacy. This
-policy explains what data Blah2Text collects, why, where it is stored,
+We at Voxmelt ("we", "us", "our") respect your privacy. This
+policy explains what data Voxmelt collects, why, where it is stored,
 who it is shared with, and how to exercise your rights over it.
 
-If anything here is unclear, email us at help@blah2text.com.
+If anything here is unclear, email us at help@voxmelt.com.
 
 ## 1. Who we are
 
-Blah2Text
+Voxmelt
 
 We are the data controller for the personal data described in this
 policy.
 
 ## 2. What data we collect — and what we DON'T
 
-### Data Blah2Text collects automatically — local only
+### Data Voxmelt collects automatically — local only
 
-When you use the Blah2Text desktop application, the following stays on
+When you use the Voxmelt desktop application, the following stays on
 your computer and is **never transmitted** to us unless you opt in to
 the features called out in §3 and §4:
 
@@ -34,9 +34,9 @@ the features called out in §3 and §4:
   configuration, EULA acceptance flag).
 - Local execution reports (which actions ran, when, success/failure).
 
-This data lives in `%APPDATA%\app.blah2text.desktop\` on Windows.
+This data lives in `%APPDATA%\app.voxmelt.desktop\` on Windows.
 
-### Data Blah2Text collects only with your active opt-in
+### Data Voxmelt collects only with your active opt-in
 
 #### Crash reports (default: ON, opt-out)
 
@@ -72,11 +72,11 @@ We do NOT collect:
 We use our analytics provider for usage analytics.
 
 You can enable / disable this in **Settings → Privacy → Help improve
-Blah2Text**.
+Voxmelt**.
 
-### Data Blah2Text collects when you create a Blah2Text account (Phase 7+)
+### Data Voxmelt collects when you create a Voxmelt account (Phase 7+)
 
-If and when you choose to create a Blah2Text account (required only for
+If and when you choose to create a Voxmelt account (required only for
 cloud sync and paid features):
 
 - Email address — used as your account identifier and for
@@ -146,7 +146,7 @@ consent, except where required by law (e.g. valid court order).
 ## 5. Where data is stored
 
 Local app data: on your computer at
-`%APPDATA%\app.blah2text.desktop\`.
+`%APPDATA%\app.voxmelt.desktop\`.
 
 Cloud-synced data: in the database provider region asia-south-1 (Mumbai) (set
 before Phase 7 ships).
@@ -169,15 +169,15 @@ where required).
 
 ## 7. Your rights
 
-If you have a Blah2Text account, you can at any time:
+If you have a Voxmelt account, you can at any time:
 
 - **Access** the data we hold about you — Settings → Privacy → Export
-  my data, or email help@blah2text.com.
+  my data, or email help@voxmelt.com.
 - **Correct** inaccurate data — Settings → Account, or email us.
 - **Delete** your account and all associated data — Settings →
   Account → Delete account. All cloud data is removed within 30 days;
   payment-processor billing records may be retained for legal compliance.
-- **Restrict or object** to processing — email help@blah2text.com.
+- **Restrict or object** to processing — email help@voxmelt.com.
 - **Port** your data to another service — Settings → Privacy → Export
   my data produces a JSON file you can import elsewhere.
 - **Withdraw consent** for analytics or crash reports — toggle them
@@ -187,7 +187,7 @@ If you have a Blah2Text account, you can at any time:
   CNIL in France).
 
 If you do not have an account, only local data exists, and you can
-delete it by uninstalling Blah2Text.
+delete it by uninstalling Voxmelt.
 
 For users in the European Economic Area, the United Kingdom, and
 Switzerland, your rights under the GDPR / UK GDPR apply.
@@ -202,9 +202,9 @@ Protection Act 2023 apply.
 
 ## 8. Children
 
-Blah2Text is not directed at children under 13 (or under 16 in the EU).
+Voxmelt is not directed at children under 13 (or under 16 in the EU).
 We do not knowingly collect data from children. If you believe a
-child has provided us data, email help@blah2text.com and we will delete
+child has provided us data, email help@voxmelt.com and we will delete
 it.
 
 ## 9. Security
@@ -213,7 +213,7 @@ We use industry-standard measures to protect your data, including
 encryption in transit (TLS), encryption at rest where supported by
 the underlying provider, and least-privilege access controls. No
 system is perfectly secure, however; if you suspect a breach of your
-account, email help@blah2text.com immediately.
+account, email help@voxmelt.com immediately.
 
 If we discover a security incident affecting your data, we will
 notify you and (where required) your data-protection authority within
@@ -224,11 +224,11 @@ notify you and (where required) your data-protection authority within
 We may update this policy from time to time. Material changes will
 be announced inside the app (Settings → About → Updates) and on this
 page. The most current version is always available at
-[github.com/nimbarkparam/Blah2Text-releases/blob/master/legal/PRIVACY.md](https://github.com/nimbarkparam/Blah2Text-releases/blob/main/legal/PRIVACY.md).
+[github.com/nimbarkparam/Voxmelt-releases/blob/master/legal/PRIVACY.md](https://github.com/nimbarkparam/Voxmelt-releases/blob/main/legal/PRIVACY.md).
 
 ## 11. Contact
 
 Privacy questions, data-rights requests, or complaints:
-help@blah2text.com
+help@voxmelt.com
 
-Blah2Text
+Voxmelt

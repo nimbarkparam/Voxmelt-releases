@@ -1,13 +1,13 @@
-# Blah2Text legal documents
+# Voxmelt legal documents
 
-This folder contains the three documents Blah2Text users agree to when
+This folder contains the three documents Voxmelt users agree to when
 they install or sign up:
 
 | File | Audience | Where it appears |
 |---|---|---|
 | [`EULA.md`](./EULA.md) | Anyone installing the desktop app | Installer (accept-to-install) + Settings → About → Legal |
 | [`PRIVACY.md`](./PRIVACY.md) | Anyone using the app or website | Settings → About → Legal + portal footer |
-| [`TERMS.md`](./TERMS.md) | Anyone with a Blah2Text account or paid plan | Settings → About → Legal + portal footer + first sign-up |
+| [`TERMS.md`](./TERMS.md) | Anyone with a Voxmelt account or paid plan | Settings → About → Legal + portal footer + first sign-up |
 
 ---
 
@@ -19,7 +19,7 @@ NOT been reviewed by counsel. Before:
 
 - You take any payment, or
 - You let anyone outside your immediate team install the app, or
-- You make Blah2Text publicly downloadable from a domain you own,
+- You make Voxmelt publicly downloadable from a domain you own,
 
 …have a lawyer in your jurisdiction review all three. Ask them to
 specifically check:
@@ -42,10 +42,10 @@ specifically check:
 Every `[…]` bracket in the three documents is a placeholder. As of
 this draft, the placeholders are:
 
-- `Blah2Text` — legal entity name on file with our payment processor
+- `Voxmelt` — legal entity name on file with our payment processor
 - `` — address on incorporation papers
-- `help@blah2text.com` — e.g. `support@blah2text.com`
-- `help@blah2text.com` — can be the same; e.g. `privacy@blah2text.com`
+- `help@voxmelt.com` — e.g. `support@voxmelt.com`
+- `help@voxmelt.com` — can be the same; e.g. `privacy@voxmelt.com`
 - `India (Mumbai, Maharashtra)` — e.g. "the State of Delaware, United States" or
   "the courts of Mumbai, India". Match your incorporation.
 - `[Subscription Price]` — fill in after pricing is locked in Phase 8
@@ -57,5 +57,5 @@ A simple find-and-replace before publishing handles all of them.
 
 Each document carries a version line at the top. Bump the version when
 the document changes materially. The app stores the user's last-accepted
-EULA version in localStorage as `blah2text_eula_accepted_v1`; bumping the
+EULA version in localStorage as `voxmelt_eula_accepted_v1`; bumping the
 EULA version automatically re-prompts existing users on next launch.

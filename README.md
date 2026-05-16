@@ -1,10 +1,10 @@
-# Blah2Text-releases
+# Voxmelt-releases
 
-Public auto-updater feed for **Blah2Text**, a local GPU-accelerated voice-to-text app with built-in AI cleanup. Built artifacts are mirrored here from the private source repo by GitHub Actions.
+Public auto-updater feed for **Voxmelt**, a local GPU-accelerated voice-to-text app with built-in AI cleanup. Built artifacts are mirrored here from the private source repo by GitHub Actions.
 
-- **App source code** lives at [`nimbarkparam/Blah2Text`](https://github.com/nimbarkparam/Blah2Text) (private).
-- **Marketing + account portal** lives at [`nimbarkparam/Blah2Text-web`](https://github.com/nimbarkparam/Blah2Text-web) (private).
-- **This repo** is intentionally public so that the Tauri auto-updater on every installed copy of Blah2Text can fetch `latest.json` and the signed update payload anonymously.
+- **App source code** lives at [`nimbarkparam/Voxmelt`](https://github.com/nimbarkparam/Voxmelt) (private).
+- **Marketing + account portal** lives at [`nimbarkparam/Voxmelt-web`](https://github.com/nimbarkparam/Voxmelt-web) (private).
+- **This repo** is intentionally public so that the Tauri auto-updater on every installed copy of Voxmelt can fetch `latest.json` and the signed update payload anonymously.
 
 ## What's published here
 
@@ -12,12 +12,12 @@ Each tagged release attaches four assets:
 
 | Asset | Purpose |
 |---|---|
-| `Blah2Text_<version>_x64-setup.exe`   | Windows NSIS installer (download this for a fresh install). |
-| `Blah2Text_<version>_x64-setup.nsis.zip` | Updater payload consumed by Tauri's auto-updater. |
-| `Blah2Text_<version>_x64-setup.nsis.zip.sig` | Minisign signature for the updater payload (verified by the running app). |
+| `Voxmelt_<version>_x64-setup.exe`   | Windows NSIS installer (download this for a fresh install). |
+| `Voxmelt_<version>_x64-setup.nsis.zip` | Updater payload consumed by Tauri's auto-updater. |
+| `Voxmelt_<version>_x64-setup.nsis.zip.sig` | Minisign signature for the updater payload (verified by the running app). |
 | `latest.json` | Updater manifest. URL fields point back at this repo's release-asset URLs. |
 
-The Tauri updater on every Blah2Text install polls `latest.json` from this repo on each launch. When `latest.json` shows a newer `version`, the running app downloads the matching `.nsis.zip`, verifies the `.sig`, and installs the patch on next restart.
+The Tauri updater on every Voxmelt install polls `latest.json` from this repo on each launch. When `latest.json` shows a newer `version`, the running app downloads the matching `.nsis.zip`, verifies the `.sig`, and installs the patch on next restart.
 
 ## How releases are cut
 
@@ -31,7 +31,7 @@ No one pushes commits here directly. All updates flow through the mirror workflo
 
 ## What does **not** live here
 
-- Source code (lives in [`nimbarkparam/Blah2Text`](https://github.com/nimbarkparam/Blah2Text)).
+- Source code (lives in [`nimbarkparam/Voxmelt`](https://github.com/nimbarkparam/Voxmelt)).
 - Issue tracker (file issues against the source repo).
 - Roadmap or design discussions.
 
@@ -45,4 +45,4 @@ The installer is signed with a Microsoft Authenticode certificate (right-click t
 
 ## License
 
-The Blah2Text desktop binary is distributed under the EULA at [`legal/EULA.md`](./legal/EULA.md). The auto-updater feed infrastructure (this README, workflows mirroring artifacts here) is MIT.
+The Voxmelt desktop binary is distributed under the EULA at [`legal/EULA.md`](./legal/EULA.md). The auto-updater feed infrastructure (this README, workflows mirroring artifacts here) is MIT.

@@ -1,15 +1,15 @@
-# Blah2Text Terms of Service
+# Voxmelt Terms of Service
 
 **Version:** 1.0
 **Effective date:** 12 May 2026
-**Applies to:** anyone with a Blah2Text account, including users of any
-free or paid plan, and anyone visiting the blah2text.com website.
+**Applies to:** anyone with a Voxmelt account, including users of any
+free or paid plan, and anyone visiting the voxmelt.com website.
 
 ---
 
 These Terms of Service ("Terms") form a binding agreement between you
-and Blah2Text ("we", "us", "our"). By creating a Blah2Text
-account, by visiting the blah2text.com website while signed in, or by
+and Voxmelt ("we", "us", "our"). By creating a Voxmelt
+account, by visiting the voxmelt.com website while signed in, or by
 using any feature that requires an account (such as cloud sync), you
 agree to these Terms.
 
@@ -20,14 +20,14 @@ software, and these Terms do not apply to you.
 ## 1. Eligibility
 
 You must be at least 13 years old (16 if you reside in the European
-Economic Area) to create a Blah2Text account. By signing up you confirm
+Economic Area) to create a Voxmelt account. By signing up you confirm
 you meet this age requirement and that the registration information
 you provide is accurate.
 
 ## 2. Your account
 
 You are responsible for keeping your account credentials secure. You
-must notify us promptly at help@blah2text.com if you suspect
+must notify us promptly at help@voxmelt.com if you suspect
 unauthorised access to your account.
 
 You may not:
@@ -39,7 +39,7 @@ You may not:
 
 ## 3. The service
 
-"Blah2Text" comprises the desktop application, the blah2text.com website,
+"Voxmelt" comprises the desktop application, the voxmelt.com website,
 the auto-update channel, and any cloud features such as sync and
 backup.
 
@@ -49,7 +49,7 @@ materially reduce paid features you actively use.
 
 ## 4. Acceptable use
 
-You agree NOT to use Blah2Text to:
+You agree NOT to use Voxmelt to:
 
 1. Engage in any activity that is illegal in your jurisdiction or in
    the jurisdiction where the activity has effect.
@@ -65,7 +65,7 @@ You agree NOT to use Blah2Text to:
 6. Reverse-engineer, decompile, or attempt to extract the source
    code of the cloud or website services (the EULA covers the
    desktop app separately).
-7. Resell, sublicense, or white-label Blah2Text without a written
+7. Resell, sublicense, or white-label Voxmelt without a written
    agreement with us.
 
 We may suspend or terminate accounts we believe are violating these
@@ -75,9 +75,9 @@ rules, with or without notice depending on the severity.
 
 ### 5.1 Plans
 
-Blah2Text offers a **Free** plan and one or more **Paid** plans. The
+Voxmelt offers a **Free** plan and one or more **Paid** plans. The
 features and limits of each plan are listed at
-blah2text.com/pricing and may change with advance notice.
+voxmelt.com/pricing and may change with advance notice.
 
 ### 5.2 Pricing
 
@@ -95,7 +95,7 @@ payment method for each renewal.
 ### 5.4 Cancellation
 
 You may cancel your subscription at any time from
-blah2text.com/account/billing by clicking *Cancel at period end*.
+voxmelt.com/account/billing by clicking *Cancel at period end*.
 Cancellation stops future renewals only. You retain full access to
 paid features through the end of the cycle you have already paid
 for. After that date your account automatically reverts to the free
@@ -103,10 +103,10 @@ Starter tier and no further charges are made.
 
 ### 5.5 No refunds
 
-Every install of Blah2Text begins with a **free 15-day Advanced trial**
+Every install of Voxmelt begins with a **free 15-day Advanced trial**
 with no payment, no card required, and no obligation to subscribe.
 That trial gives you a full opportunity to evaluate paid features
-before committing. Because of this, paid subscriptions to Blah2Text are
+before committing. Because of this, paid subscriptions to Voxmelt are
 **non-refundable**. Once a charge is made for a billing cycle, it
 cannot be refunded — whether that is your first payment or a
 subsequent renewal. By starting a paid subscription you confirm that
@@ -117,22 +117,22 @@ To stop being charged in the future, cancel your subscription before
 the next renewal date (see §5.4 above).
 
 The no-refund policy does not apply to a verified, sustained
-Blah2Text-side outage. If a paid feature is materially unavailable due
+Voxmelt-side outage. If a paid feature is materially unavailable due
 to a service failure exceeding 48 continuous hours within a single
-billing cycle, contact help@blah2text.com and we will issue a pro-rated
+billing cycle, contact help@voxmelt.com and we will issue a pro-rated
 credit or refund for the affected portion of the cycle.
 
 Full details on the
-[Refund & Cancellation Policy](https://blah2text.com/refund-policy)
+[Refund & Cancellation Policy](https://voxmelt.com/refund-policy)
 page.
 
 ### 5.6 Trials
 
-Every fresh install of Blah2Text includes a free 15-day Advanced trial,
+Every fresh install of Voxmelt includes a free 15-day Advanced trial,
 device-anchored and requiring no payment method. You will never be
 charged automatically at the end of a trial — paid subscriptions
 begin only when you explicitly subscribe through
-blah2text.com/pricing. Re-installing Blah2Text on the same device does
+voxmelt.com/pricing. Re-installing Voxmelt on the same device does
 not reset the trial; it is anchored to the device fingerprint.
 
 ### 5.7 Taxes
@@ -142,7 +142,7 @@ sales tax). Our payment processor collects taxes on our behalf where required.
 
 ## 6. Intellectual property
 
-We own the Blah2Text software, branding, website, and all related
+We own the Voxmelt software, branding, website, and all related
 intellectual property. The EULA grants you a license to use the
 desktop app. These Terms grant you a license to use the website and
 cloud services, subject to compliance with these Terms.
@@ -151,7 +151,7 @@ You retain all rights to:
 
 - Sequences you create.
 - Schedules you configure.
-- Files you process with Blah2Text.
+- Files you process with Voxmelt.
 - Any other content you upload.
 
 You grant us a non-exclusive, worldwide, royalty-free license to
@@ -161,7 +161,7 @@ when you delete the content or your account.
 
 ## 7. Third-party services
 
-Blah2Text integrates with third-party services (a payment processor, a hosting + database provider, and a crash-reporting provider). Your use of those
+Voxmelt integrates with third-party services (a payment processor, a hosting + database provider, and a crash-reporting provider). Your use of those
 services is governed by their own terms; we are not responsible for
 them.
 
@@ -242,7 +242,7 @@ least 30 days before they take effect. Continued use of the Service
 after that period constitutes acceptance of the updated Terms.
 
 The most current version is always available at
-[github.com/nimbarkparam/Blah2Text-releases/blob/master/legal/TERMS.md](https://github.com/nimbarkparam/Blah2Text-releases/blob/main/legal/TERMS.md).
+[github.com/nimbarkparam/Voxmelt-releases/blob/master/legal/TERMS.md](https://github.com/nimbarkparam/Voxmelt-releases/blob/main/legal/TERMS.md).
 
 ## 15. Miscellaneous
 
@@ -260,6 +260,6 @@ The most current version is always available at
 ## 16. Contact
 
 Questions about these Terms, or notices required under them:
-help@blah2text.com
+help@voxmelt.com
 
-Blah2Text
+Voxmelt

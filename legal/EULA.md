@@ -1,19 +1,19 @@
-# Blah2Text End User License Agreement
+# Voxmelt End User License Agreement
 
 **Version:** 1.1
 **Effective date:** 12 May 2026
-**Applies to:** the Blah2Text desktop application for Microsoft Windows.
+**Applies to:** the Voxmelt desktop application for Microsoft Windows.
 
 ---
 
-By installing, copying, or otherwise using Blah2Text ("the Software"),
+By installing, copying, or otherwise using Voxmelt ("the Software"),
 you ("the User") agree to be bound by the terms of this End User
 License Agreement ("EULA"). If you do not agree, do not install or
 use the Software.
 
 ## 1. License grant
 
-Blah2Text ("we", "us", "our") grants you a limited, non-exclusive,
+Voxmelt ("we", "us", "our") grants you a limited, non-exclusive,
 non-transferable, revocable license to install and use one copy of the
 Software on each personal computer or device that you own or control,
 solely for your personal or internal business use, subject to the
@@ -90,7 +90,7 @@ so some of the above exclusions may not apply to you.
 ## 7. Limitation of liability
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL
-Blah2Text BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+Voxmelt BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
 CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, REVENUES,
 DATA, OR USE, ARISING OUT OF OR RELATED TO YOUR USE OF THE SOFTWARE,
 WHETHER IN CONTRACT, TORT, OR ANY OTHER LEGAL THEORY, EVEN IF WE HAVE
@@ -135,10 +135,10 @@ We may update this EULA from time to time. Material changes will
 trigger a re-acceptance prompt the next time you launch the Software.
 Continued use after the prompt constitutes acceptance of the updated
 EULA. The most current version is always available at
-[github.com/nimbarkparam/Blah2Text-releases/blob/master/legal/EULA.md](https://github.com/nimbarkparam/Blah2Text-releases/blob/main/legal/EULA.md).
+[github.com/nimbarkparam/Voxmelt-releases/blob/master/legal/EULA.md](https://github.com/nimbarkparam/Voxmelt-releases/blob/main/legal/EULA.md).
 
 ## 11. Contact
 
-Questions about this EULA: help@blah2text.com
+Questions about this EULA: help@voxmelt.com
 
-Blah2Text
+Voxmelt
