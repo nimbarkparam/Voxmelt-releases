@@ -57,5 +57,5 @@ A simple find-and-replace before publishing handles all of them.
 
 Each document carries a version line at the top. Bump the version when
 the document changes materially. The app stores the user's last-accepted
-EULA version in localStorage as `seqtrix_eula_accepted_v1`; bumping the
+EULA version in localStorage as `blah2text_eula_accepted_v1`; bumping the
 EULA version automatically re-prompts existing users on next launch.
