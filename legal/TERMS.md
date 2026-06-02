@@ -1,265 +1,230 @@
 # Voxmelt Terms of Service
 
-**Version:** 1.0
-**Effective date:** 12 May 2026
-**Applies to:** anyone with a Voxmelt account, including users of any
-free or paid plan, and anyone visiting the voxmelt.com website.
+**Version:** 2.0
+**Effective date:** 2 June 2026
+**Applies to:** anyone with a Voxmelt account, anyone on a paid plan, and
+anyone using the voxmelt.com website.
 
 ---
 
-These Terms of Service ("Terms") form a binding agreement between you
-and Voxmelt ("we", "us", "our"). By creating a Voxmelt
-account, by visiting the voxmelt.com website while signed in, or by
-using any feature that requires an account (such as cloud sync), you
-agree to these Terms.
+## The short version
 
-If you only use the desktop app locally without an account, the
-[End User License Agreement](./EULA.md) governs your use of the
-software, and these Terms do not apply to you.
+These Terms cover your **account, the website, and paid plans**. (Just using
+the free app locally without an account? The [EULA](./EULA.md) covers that -
+these Terms don't apply to you.) The gist:
+
+- Be 13+ (16+ in the EU) and keep your login to yourself.
+- **Pro and Studio auto-renew** until you cancel. Cancel anytime from
+  Account → Billing - one click, no phone call, no maze.
+- The app's transcripts and AI output can be wrong. **Reviewing them, and
+  obeying recording-consent laws, is on you.**
+- Standard legal protections apply (warranty disclaimer, liability cap).
+
+The full text is below.
+
+---
+
+These Terms of Service ("Terms") are a binding agreement between you and
+Voxmelt ("we", "us", "our"). By creating a Voxmelt account, using the
+voxmelt.com website while signed in, or using any feature that requires an
+account, you agree to these Terms and to the [Privacy Policy](./PRIVACY.md). If
+you only use the desktop app locally without an account, the
+[EULA](./EULA.md) governs your use and these Terms don't apply.
 
 ## 1. Eligibility
 
-You must be at least 13 years old (16 if you reside in the European
-Economic Area) to create a Voxmelt account. By signing up you confirm
-you meet this age requirement and that the registration information
-you provide is accurate.
+You must be at least 13 (16 if you live in the EEA) to create a Voxmelt
+account. By signing up you confirm you meet the age requirement and that your
+registration details are accurate.
 
 ## 2. Your account
 
-You are responsible for keeping your account credentials secure. You
-must notify us promptly at help@voxmelt.com if you suspect
-unauthorised access to your account.
-
-You may not:
-
-- Share your account with anyone else.
-- Create an account using someone else's identity.
-- Operate more than one free account to circumvent the limits of the
-  free plan.
+You're responsible for keeping your credentials secure, and for activity under
+your account. Tell us promptly at **help@voxmelt.com** if you suspect
+unauthorised access. You may not share your account, impersonate someone else,
+or run multiple free accounts to dodge plan limits.
 
 ## 3. The service
 
-"Voxmelt" comprises the desktop application, the voxmelt.com website,
-the auto-update channel, and any cloud features such as sync and
-backup.
+"Voxmelt" means the desktop app, the voxmelt.com website, the auto-update
+channel, and the account/billing features. The desktop app records audio,
+transcribes it locally on your GPU, and (on Studio) post-processes the text
+with a local AI model - all on your machine. We may add, change, or remove
+features over time, and we'll give reasonable notice (in-app or by email) of
+changes that would materially reduce a paid feature you actively use.
 
-We may add, modify, or remove features at any time. We will give
-reasonable notice (in-app or by email) of changes that would
-materially reduce paid features you actively use.
+## 4. Your responsibilities when recording and using output
 
-## 4. Acceptable use
+Because Voxmelt is a voice and AI tool, two responsibilities sit with you:
 
-You agree NOT to use Voxmelt to:
+**Recording and consent.** You are solely responsible for ensuring you have
+the legal right and any required consent to record and process the voices and
+conversations you capture. Recording laws vary widely - many places require
+**all parties** to consent, and biometric-privacy laws (such as Illinois'
+BIPA) regulate voice data. Voxmelt is a local tool; obtaining the consents and
+legal basis required where you and the people you record are located is your
+responsibility, not ours.
 
-1. Engage in any activity that is illegal in your jurisdiction or in
-   the jurisdiction where the activity has effect.
-2. Distribute, install, or facilitate malware, ransomware, spyware,
-   or any unauthorised access to other people's systems.
-3. Send unsolicited bulk messages (spam) or operate denial-of-service
-   campaigns.
-4. Bypass access controls, paywalls, rate limits, or anti-fraud
-   systems on third-party services.
-5. Operate critical-life-safety, medical, aviation, nuclear, or other
-   systems where failure could result in death, personal injury, or
-   environmental damage.
-6. Reverse-engineer, decompile, or attempt to extract the source
-   code of the cloud or website services (the EULA covers the
-   desktop app separately).
-7. Resell, sublicense, or white-label Voxmelt without a written
-   agreement with us.
+**Reviewing and using output.** As explained in the [EULA](./EULA.md) §4,
+transcripts and AI output can be inaccurate, incomplete, or invented, and
+vary with accent, tone, language, wording, and hardware. You are responsible
+for reviewing output before relying on it, and for how you use it. Voxmelt
+output is an assistive draft, **not professional advice**, and must not be the
+sole basis for any legal, medical, financial, or safety-critical decision
+without independent human review.
 
-We may suspend or terminate accounts we believe are violating these
-rules, with or without notice depending on the severity.
+## 5. Acceptable use
 
-## 5. Subscriptions and billing
+You agree not to use Voxmelt to:
 
-### 5.1 Plans
+1. Do anything illegal where you are or where the activity has effect,
+   including recording people without the consent the law requires.
+2. Create, distribute, or facilitate malware or unauthorised access to others'
+   systems.
+3. Generate content that harasses, defames, or violates someone else's rights.
+4. Misrepresent AI-generated or AI-edited text as something it isn't where the
+   law requires disclosure of AI generation (e.g. certain transparency rules
+   under the EU AI Act).
+5. Reverse-engineer or extract the source of the website or account services
+   (the EULA covers the desktop app separately).
+6. Resell, sublicense, or white-label Voxmelt without a written agreement.
 
-Voxmelt offers a **Free** plan and one or more **Paid** plans. The
-features and limits of each plan are listed at
-voxmelt.com/pricing and may change with advance notice.
+We may suspend or terminate accounts we reasonably believe are breaking these
+rules, with or without notice depending on severity.
 
-### 5.2 Pricing
+## 6. Subscriptions and billing
 
-Paid plans are priced as displayed at the time of subscription.
-Prices may change; you will receive at least 30 days' notice of any
-price increase that affects your subscription.
+### 6.1 Plans
 
-### 5.3 Auto-renewal
+Voxmelt offers a **Free** plan and paid **Pro** and **Studio** plans. Each
+plan's features and limits are listed at **voxmelt.com/pricing** and may change
+with advance notice.
 
-Paid subscriptions auto-renew at the end of each billing period
-(monthly or annual) at the then-current price, until cancelled. By
-subscribing, you authorise us to charge your selected
+### 6.2 Pricing
+
+Paid plans are priced as shown at the time you subscribe. We'll give you at
+least **30 days' notice** of any price increase that affects your renewal.
+
+### 6.3 Auto-renewal
+
+Paid subscriptions **auto-renew** at the end of each billing period (monthly or
+annual) at the then-current price until you cancel. By subscribing, you
+authorise us (through our payment processor, Razorpay) to charge your selected
 payment method for each renewal.
 
-### 5.4 Cancellation
+### 6.4 Cancellation - genuinely one click
 
-You may cancel your subscription at any time from
-voxmelt.com/account/billing by clicking *Cancel at period end*.
-Cancellation stops future renewals only. You retain full access to
-paid features through the end of the cycle you have already paid
-for. After that date your account automatically reverts to the free
-Starter tier and no further charges are made.
+You can cancel any time from **voxmelt.com/account/billing** with a single
+"Cancel" action - no email, no phone call, no retention gauntlet. Cancelling
+stops **future** renewals only. You keep full paid access through the end of
+the cycle you've already paid for, after which your account reverts to the
+free tier and no further charges are made.
 
-### 5.5 No refunds
+### 6.5 Refunds
 
-Every install of Voxmelt begins with a **free 15-day Advanced trial**
-with no payment, no card required, and no obligation to subscribe.
-That trial gives you a full opportunity to evaluate paid features
-before committing. Because of this, paid subscriptions to Voxmelt are
-**non-refundable**. Once a charge is made for a billing cycle, it
-cannot be refunded — whether that is your first payment or a
-subsequent renewal. By starting a paid subscription you confirm that
-you have had a full opportunity to evaluate the paid features during
-the free trial and you accept this no-refund policy.
+The full **[Refund & Cancellation Policy](./REFUND.md)** governs refunds. In
+short: every install includes a free 15-day full-feature trial (no card
+required), so paid charges are **non-refundable once a billing cycle begins** -
+with one exception for a sustained (48+ continuous hours) Voxmelt-side outage.
 
-To stop being charged in the future, cancel your subscription before
-the next renewal date (see §5.4 above).
+### 6.6 Taxes
 
-The no-refund policy does not apply to a verified, sustained
-Voxmelt-side outage. If a paid feature is materially unavailable due
-to a service failure exceeding 48 continuous hours within a single
-billing cycle, contact help@voxmelt.com and we will issue a pro-rated
-credit or refund for the affected portion of the cycle.
+Prices exclude applicable taxes (VAT, GST, sales tax). Razorpay collects taxes
+on our behalf where required.
 
-Full details on the
-[Refund & Cancellation Policy](https://voxmelt.com/refund-policy)
-page.
+## 7. Intellectual property
 
-### 5.6 Trials
+We own the Voxmelt software, branding, website, and related IP. The EULA
+licenses you the desktop app; these Terms license you the website and account
+services, subject to compliance with these Terms.
 
-Every fresh install of Voxmelt includes a free 15-day Advanced trial,
-device-anchored and requiring no payment method. You will never be
-charged automatically at the end of a trial — paid subscriptions
-begin only when you explicitly subscribe through
-voxmelt.com/pricing. Re-installing Voxmelt on the same device does
-not reset the trial; it is anchored to the device fingerprint.
+You keep all rights to your content - your audio, transcripts, AI output, and
+custom templates. Because the app runs locally we don't receive that content;
+for the limited account data we do hold (email, plan status), you grant us only
+the narrow license needed to operate your account, which ends when you delete
+the content or your account. The third-party models you run keep their own
+licenses (see [EULA](./EULA.md) §6).
 
-### 5.7 Taxes
+## 8. Third-party services
 
-Subscription prices are exclusive of any applicable taxes (VAT, GST,
-sales tax). Our payment processor collects taxes on our behalf where required.
+Voxmelt's account and billing features rely on Supabase (auth/database),
+Razorpay (payments), and GitHub (release distribution); Google sign-in is
+optional. Your use of those services is also governed by their own terms, and
+we're not responsible for them.
 
-## 6. Intellectual property
+## 9. Disclaimer of warranties
 
-We own the Voxmelt software, branding, website, and all related
-intellectual property. The EULA grants you a license to use the
-desktop app. These Terms grant you a license to use the website and
-cloud services, subject to compliance with these Terms.
+THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED. WE DISCLAIM ALL WARRANTIES INCLUDING MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, THAT THE SERVICE WILL BE
+UNINTERRUPTED, ERROR-FREE, OR SECURE, AND THAT ANY TRANSCRIPT OR AI OUTPUT WILL
+BE ACCURATE, COMPLETE, OR FIT FOR YOUR PURPOSE. Some jurisdictions don't allow
+certain exclusions, so some may not apply to you.
 
-You retain all rights to:
-
-- Sequences you create.
-- Schedules you configure.
-- Files you process with Voxmelt.
-- Any other content you upload.
-
-You grant us a non-exclusive, worldwide, royalty-free license to
-host, store, transmit, and process your content solely as needed to
-provide the service to you (e.g. cloud sync). This license terminates
-when you delete the content or your account.
-
-## 7. Third-party services
-
-Voxmelt integrates with third-party services (a payment processor, a hosting + database provider, and a crash-reporting provider). Your use of those
-services is governed by their own terms; we are not responsible for
-them.
-
-## 8. Disclaimer of warranties
-
-THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY
-OF ANY KIND, EXPRESS OR IMPLIED. WE DISCLAIM ALL WARRANTIES INCLUDING
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT,
-AND THAT THE SERVICE WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, OR
-FREE OF HARMFUL COMPONENTS.
-
-Some jurisdictions do not allow the exclusion of certain warranties,
-so some exclusions may not apply to you.
-
-## 9. Limitation of liability
+## 10. Limitation of liability
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:
 
-1. WE WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
-   CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS,
-   REVENUES, OR DATA, ARISING OUT OF OR RELATED TO THESE TERMS OR
-   THE SERVICE.
-2. OUR TOTAL CUMULATIVE LIABILITY ARISING OUT OF OR RELATED TO
-   THESE TERMS WILL NOT EXCEED THE GREATER OF (a) THE AMOUNT YOU
-   PAID US IN THE TWELVE MONTHS PRECEDING THE EVENT GIVING RISE
-   TO THE CLAIM, OR (b) US $50.
+1. WE WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL,
+   OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, REVENUES, OR DATA, OR ANY LOSS
+   ARISING FROM INACCURATE OR UNEXPECTED TRANSCRIPTION OR AI OUTPUT, ARISING
+   OUT OF OR RELATED TO THESE TERMS OR THE SERVICE.
+2. OUR TOTAL CUMULATIVE LIABILITY WILL NOT EXCEED THE GREATER OF (a) THE AMOUNT
+   YOU PAID US IN THE TWELVE MONTHS BEFORE THE EVENT GIVING RISE TO THE CLAIM,
+   OR (b) US $50.
 
-This applies regardless of the legal theory (contract, tort, or
-otherwise), even if we have been advised of the possibility of
-such damages.
+This applies regardless of legal theory, even if we were advised of the
+possibility. Some jurisdictions don't allow these limits; if you're a consumer
+with stronger protections (such as in the EU), those apply to the extent
+required by law.
 
-Some jurisdictions do not allow these limitations, so they may not
-apply to you. If you are a consumer in a jurisdiction with stronger
-protections (such as the European Union), those protections apply
-to the extent required by law.
+## 11. Indemnity
 
-## 10. Indemnity
+You agree to indemnify and hold us harmless from any claim, loss, or damage
+arising from your breach of these Terms, your misuse of the Service, your
+recording or processing of others' voices without proper consent, or your
+violation of any law or third-party right.
 
-You agree to indemnify and hold us harmless from any claim, demand,
-loss, or damage arising from your breach of these Terms, your misuse
-of the Service, or your violation of any law or third-party right.
+## 12. Termination
 
-## 11. Termination
+You may close your account any time from Settings → Account → Delete account.
+We may suspend or terminate your account if you breach these Terms or if
+continued access poses a legal, security, or financial risk. Sections 7, 9, 10,
+11, and 14 survive termination.
 
-You may terminate your account at any time from Settings → Account →
-Delete account.
+## 13. Privacy
 
-We may terminate or suspend your account at any time with or without
-notice if you breach these Terms or if continuing your access poses
-legal, security, or financial risk to us or other users.
+Our [Privacy Policy](./PRIVACY.md) explains how we handle data. By using the
+Service you accept the practices described there.
 
-Sections 6 (Ownership), 8 (Disclaimer), 9 (Liability), 10 (Indemnity),
-and 13 (Governing law) survive termination.
-
-## 12. Privacy
-
-Our [Privacy Policy](./PRIVACY.md) describes how we handle your
-data. By using the Service, you accept the practices described
-there.
-
-## 13. Governing law and disputes
+## 14. Governing law and disputes
 
 These Terms are governed by the laws of India (Mumbai, Maharashtra), without
-regard to its conflict-of-laws principles. Any dispute arising out
-of or relating to these Terms or the Service will be brought
-exclusively in the courts of India (Mumbai, Maharashtra), and you consent to the
-personal jurisdiction of those courts.
+regard to conflict-of-laws principles. Disputes will be brought exclusively in
+the courts of Mumbai, Maharashtra, India, and you consent to their personal
+jurisdiction. If you're a consumer in the EU, you may also bring disputes in
+the courts of your country of residence under EU consumer-protection law.
 
-If you are a consumer in the European Union, you may also bring
-disputes before the courts of your country of residence under EU
-consumer-protection law.
+## 15. Changes to these Terms
 
-## 14. Changes to these Terms
+We may update these Terms. Material changes will be announced in the app and by
+email to your account address at least 30 days before they take effect.
+Continued use after that period is acceptance. The current version always lives
+at
+[github.com/nimbarkparam/Voxmelt-releases/blob/main/legal/TERMS.md](https://github.com/nimbarkparam/Voxmelt-releases/blob/main/legal/TERMS.md).
 
-We may update these Terms from time to time. Material changes will
-be announced inside the app and by email to your account address at
-least 30 days before they take effect. Continued use of the Service
-after that period constitutes acceptance of the updated Terms.
+## 16. Miscellaneous
 
-The most current version is always available at
-[github.com/nimbarkparam/Voxmelt-releases/blob/master/legal/TERMS.md](https://github.com/nimbarkparam/Voxmelt-releases/blob/main/legal/TERMS.md).
+- **Severability:** if any provision is unenforceable, the rest stay in effect.
+- **No waiver:** not enforcing a provision isn't a waiver of it.
+- **Assignment:** you may not assign these Terms without our consent; we may
+  assign them in a merger, acquisition, or sale of assets.
+- **Entire agreement:** these Terms, the EULA, the Refund Policy, and the
+  Privacy Policy are the entire agreement between you and us regarding the
+  Service.
 
-## 15. Miscellaneous
+## 17. Contact
 
-- **Severability:** if any provision of these Terms is found
-  unenforceable, the rest remain in effect.
-- **No waiver:** our failure to enforce a provision is not a waiver
-  of that provision.
-- **Assignment:** you may not assign these Terms without our written
-  consent. We may assign these Terms in connection with a merger,
-  acquisition, or sale of assets.
-- **Entire agreement:** these Terms, together with the EULA and the
-  Privacy Policy, constitute the entire agreement between you and us
-  regarding the Service.
-
-## 16. Contact
-
-Questions about these Terms, or notices required under them:
-help@voxmelt.com
+Questions or notices: **help@voxmelt.com**
 
 Voxmelt

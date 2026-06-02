@@ -1,61 +1,70 @@
 # Voxmelt legal documents
 
-This folder contains the three documents Voxmelt users agree to when
-they install or sign up:
+This folder is the **source of truth** for the legal documents Voxmelt users
+agree to when they install or subscribe. `sync-legal.yml` mirrors this folder
+to the public `Voxmelt-releases` repo on every change, so the in-app "Legal"
+links and the portal always point at the current text without shipping a new
+binary.
 
 | File | Audience | Where it appears |
 |---|---|---|
 | [`EULA.md`](./EULA.md) | Anyone installing the desktop app | Installer (accept-to-install) + Settings → About → Legal |
-| [`PRIVACY.md`](./PRIVACY.md) | Anyone using the app or website | Settings → About → Legal + portal footer |
-| [`TERMS.md`](./TERMS.md) | Anyone with a Voxmelt account or paid plan | Settings → About → Legal + portal footer + first sign-up |
+| [`PRIVACY.md`](./PRIVACY.md) | Anyone using the app or website | Settings → About → Legal + portal `/privacy` |
+| [`TERMS.md`](./TERMS.md) | Anyone with an account or paid plan | Settings → About → Legal + portal `/privacy#terms` + first sign-up |
+| [`REFUND.md`](./REFUND.md) | Anyone on a paid plan | Portal `/privacy#refund` + billing flow |
 
----
+These mirror the combined legal page the portal serves at
+`voxmelt.com/privacy` (Privacy + EULA + Terms + Refund as sections), which is
+also the URL submitted for Google OAuth verification. **Keep the two in sync**,
+and never water down the Google "Limited Use" disclosures in the Privacy
+Policy - Google's reviewers look for them verbatim.
 
-## ⚠️ Before going live with paying users
+## What these documents now cover
 
-These documents are **drafted as professional starting templates with
-placeholders the owner fills in**. They are NOT legal advice and have
-NOT been reviewed by counsel. Before:
+As of v2.0 (2 June 2026) these were rewritten to describe **Voxmelt as it
+actually is** - a local voice-to-text app with optional on-device AI
+post-processing. (Earlier drafts were adapted from a different product's
+templates and referenced features Voxmelt doesn't have.) They now address the
+risks specific to this product:
 
-- You take any payment, or
-- You let anyone outside your immediate team install the app, or
-- You make Voxmelt publicly downloadable from a domain you own,
+- **Local-first privacy** - audio, transcripts, AI output, and prompts never
+  leave the device; **no telemetry, no crash pings, no analytics**. This is a
+  binding promise, so keep the app's behaviour matching it: if telemetry is
+  ever added, the Privacy Policy must be updated *first*.
+- **AI accuracy** - transcripts and AI rewrites can be wrong, can hallucinate,
+  and vary by accent/tone/language/wording and by hardware; the user is
+  responsible for reviewing output, and it's explicitly **not professional
+  advice**. (EULA §4, Terms §4.)
+- **Third-party open-source models** - Whisper, Ollama, and the models the user
+  pulls (Llama, Gemma, Qwen, Mistral, …) keep their own licenses; the user is
+  responsible for complying with each. (EULA §6.)
+- **Recording consent** - the user is responsible for consent under wiretap and
+  biometric-privacy laws (e.g. BIPA); we create/store no voiceprints. (Privacy
+  §5, Terms §4.)
+- **Subscriptions** - auto-renewal with genuine one-click cancellation,
+  30-day price-change notice, 15-day no-card trial, no-refund-after-cycle with
+  an outage exception and a statutory-rights carve-out.
 
-…have a lawyer in your jurisdiction review all three. Ask them to
-specifically check:
+## ⚠️ Still get a lawyer before scaling paid users
 
-1. The **governing law** clause matches your incorporation jurisdiction.
-2. The **liability cap** is enforceable where your users live (some EU
-   states cap how low you can cap; California has rules around
-   consumer-software liability waivers).
-3. The **subscription terms** match standard subscription disclosures (auto-renewal, cancellation rights, refund policy)
-   (auto-renewal, cancellation rights, refund policy) — failure here
-   is the #1 cause of chargebacks.
-4. The **privacy policy** lists every data field you actually collect
-   and is consistent with what the app does. If we add new telemetry
-   later, this file gets updated.
-5. The **EULA** "no reverse engineering" clause is enforceable where
-   your users live (some EU states forbid blanket bans).
+These are professional starting templates aligned to the product, **not legal
+advice, and not reviewed by counsel.** Before you take payment at scale or go
+broadly public, have a lawyer in your jurisdiction review all four and check:
 
-## Placeholders you must fill in
-
-Every `[…]` bracket in the three documents is a placeholder. As of
-this draft, the placeholders are:
-
-- `Voxmelt` — legal entity name on file with our payment processor
-- `` — address on incorporation papers
-- `help@voxmelt.com` — e.g. `support@voxmelt.com`
-- `help@voxmelt.com` — can be the same; e.g. `privacy@voxmelt.com`
-- `India (Mumbai, Maharashtra)` — e.g. "the State of Delaware, United States" or
-  "the courts of Mumbai, India". Match your incorporation.
-- `[Subscription Price]` — fill in after pricing is locked in Phase 8
-- `[Free Trial Days]` — if you offer one (default suggestion: 14)
-
-A simple find-and-replace before publishing handles all of them.
+1. The **governing law** clause (India / Mumbai) matches your incorporation.
+2. The **liability cap** is enforceable where your users live (some EU states
+   and California restrict how low you can cap consumer-software liability).
+3. The **subscription/auto-renewal disclosures** meet the rules where you sell
+   (e.g. US state ARL laws + the FTC negative-option rule, EU consumer law).
+   Auto-renewal/cancellation mismatches are the #1 cause of chargebacks.
+4. The **privacy policy** lists exactly what you collect and matches what the
+   app does (today: nothing but optional account + billing data).
+5. The **AI-output and recording-consent disclaimers** are sufficient for your
+   target markets, especially if you sell into regulated users (legal/medical).
 
 ## Versioning
 
-Each document carries a version line at the top. Bump the version when
-the document changes materially. The app stores the user's last-accepted
-EULA version in localStorage as `voxmelt_eula_accepted_v1`; bumping the
-EULA version automatically re-prompts existing users on next launch.
+Each document carries a version line. Bump it on material change. The app
+stores the user's last-accepted EULA version; bumping the EULA version
+re-prompts existing users on next launch. The portal section's "Last updated"
+date should be bumped to match when the corresponding doc changes.
