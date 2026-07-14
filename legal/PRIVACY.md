@@ -1,7 +1,7 @@
 # Voxmelt Privacy Policy
 
-**Version:** 2.0
-**Effective date:** 2 June 2026
+**Version:** 2.1
+**Effective date:** 13 July 2026
 **Applies to:** the Voxmelt desktop application for Windows and the Voxmelt
 website at voxmelt.com.
 
@@ -35,13 +35,14 @@ controller. You can reach us any time at **help@voxmelt.com**.
 Voxmelt is **local-first by architecture, not just by policy.**
 
 - **Audio capture** happens on your device. When you record, your microphone
-  audio is held in your computer's memory and streamed to a transcription
-  engine (Whisper, via `faster-whisper`) that runs **on your own GPU**.
+  audio is held in your computer's memory and streamed to a local
+  transcription engine (NVIDIA Parakeet or Whisper) that runs **on your own
+  hardware** - the CPU by default, or your GPU if you choose.
 - **Transcription** is produced locally. The text appears on your screen and
   goes to your clipboard or chosen output. It is never uploaded.
-- **AI post-processing** (Studio tier) - cleaning up, summarising, rewriting,
-  or re-toning your text - runs **entirely on your machine** through a local
-  model served by Ollama. The prompt, the input text, and the AI's output
+- **AI post-processing** (within your plan limits) - cleaning up, summarising,
+  rewriting, or re-toning your text - runs **entirely on your machine** through
+  a local model served by Ollama. The prompt, the input text, and the AI's output
   never go to us or to any third party.
 - **We receive none of it.** Not the audio, not the transcript, not the
   AI output, not the prompts or custom templates you write. There is no

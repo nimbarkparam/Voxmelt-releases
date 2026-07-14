@@ -1,7 +1,7 @@
 # Voxmelt Refund & Cancellation Policy
 
-**Version:** 2.0
-**Effective date:** 4 June 2026
+**Version:** 2.1
+**Effective date:** 13 July 2026
 **Applies to:** Pro and Studio subscriptions to Voxmelt.
 
 ---
@@ -9,7 +9,7 @@
 ## The short version
 
 You get a **15-day full-feature trial, no card required**, so you can confirm
-Voxmelt actually runs on your GPU *before* you pay a cent. Because you can fully
+Voxmelt actually runs on your machine *before* you pay a cent. Because you can fully
 evaluate the app for free first, **all paid charges are final - purchases are
 non-refundable.** You can **cancel anytime in one click**: that stops future
 renewals, and at the end of the cycle you have already paid for your account
@@ -27,8 +27,8 @@ when a trial ends - a paid subscription begins **only** when you explicitly
 subscribe at **voxmelt.com/pricing**.
 
 This trial exists specifically so you can verify, on your own hardware, that
-Voxmelt installs, detects your GPU, downloads its models, and transcribes to
-your satisfaction before any money changes hands.
+Voxmelt installs, downloads its models, detects your GPU if you have one, and
+transcribes to your satisfaction before any money changes hands.
 
 ## 2. No refunds - all sales are final
 

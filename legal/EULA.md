@@ -1,7 +1,7 @@
 # Voxmelt End-User License Agreement
 
-**Version:** 2.0
-**Effective date:** 2 June 2026
+**Version:** 2.1
+**Effective date:** 13 July 2026
 **Applies to:** the Voxmelt desktop application for Microsoft Windows.
 
 ---
@@ -12,14 +12,15 @@ This is the agreement for installing and using the Voxmelt app on your own
 computer. The gist:
 
 - You get a license to **use** Voxmelt, you don't **own** it.
-- Voxmelt turns your speech into text and (on Studio) cleans it up with a
-  local AI. **AI isn't perfect** - transcripts and rewrites can be wrong, so
-  read what comes out before you rely on it.
-- Voxmelt stands on the shoulders of **open-source models** (Whisper, plus
-  whatever you run through Ollama). Those keep their own licenses; using them
-  is on you.
-- You need the **right hardware** (an NVIDIA GPU). Speed and accuracy depend
-  on it, and we can't promise any specific result on your machine.
+- Voxmelt turns your speech into text and, within your plan limits, cleans it
+  up with a local AI. **AI isn't perfect** - transcripts and rewrites can be
+  wrong, so read what comes out before you rely on it.
+- Voxmelt stands on the shoulders of **open models** (NVIDIA Parakeet,
+  Whisper, plus whatever you run through Ollama). Those keep their own
+  licenses; using them is on you.
+- Dictation runs on **any modern Windows PC**; the AI text features need an
+  **NVIDIA GPU**. Speed and accuracy depend on your hardware, and we can't
+  promise any specific result on your machine.
 - Don't use Voxmelt for illegal things or in life-or-death systems.
 
 The enforceable detail is below.
@@ -42,10 +43,12 @@ on (Free, Pro, or Studio). Paid tiers carry additional rights described in the
 ## 2. What the Software does (and what it relies on)
 
 Voxmelt records audio from your microphone and transcribes it to text using a
-local speech-to-text engine running on your GPU. On the Studio tier it can
-also post-process that text - clean it up, summarise it, reformat it, or
-change its tone - using a local large-language model served by Ollama, driven
-by built-in or custom "AI templates."
+local speech-to-text engine running on your device - on the CPU by default,
+or on an NVIDIA GPU if you choose. Within your plan limits it can also
+post-process that text - clean it up, summarise it, reformat it, or change
+its tone - using a local large-language model served by Ollama, driven by
+built-in or custom "AI templates," and can read text aloud using a local
+voice engine.
 
 All of this runs **on your device**. To work, the Software depends on
 third-party open-source components, covered in §6.
@@ -95,10 +98,10 @@ meaning, drop nuance, introduce facts that weren't there, "correct" something
 that was actually right, or produce output that doesn't match your intent.
 Custom templates and prompts you write can amplify this.
 
-**Hardware shapes the result.** Which Whisper model size and which AI model
-you can run, how fast they run, and sometimes how accurate they are, depend on
-your GPU, its VRAM, drivers, and system load. We don't warrant any particular
-speed, latency, accuracy, or quality on your hardware.
+**Hardware shapes the result.** Which speech engine and which AI model you
+can run, how fast they run, and sometimes how accurate they are, depend on
+your CPU, your GPU and its VRAM, drivers, and system load. We don't warrant
+any particular speed, latency, accuracy, or quality on your hardware.
 
 **Because of all of the above, you are responsible for reviewing and
 verifying any transcript or AI output before you rely on, send, publish, or

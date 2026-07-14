@@ -1,7 +1,7 @@
 # Voxmelt Terms of Service
 
-**Version:** 2.0
-**Effective date:** 2 June 2026
+**Version:** 2.1
+**Effective date:** 13 July 2026
 **Applies to:** anyone with a Voxmelt account, anyone on a paid plan, and
 anyone using the voxmelt.com website.
 
@@ -48,8 +48,9 @@ or run multiple free accounts to dodge plan limits.
 
 "Voxmelt" means the desktop app, the voxmelt.com website, the auto-update
 channel, and the account/billing features. The desktop app records audio,
-transcribes it locally on your GPU, and (on Studio) post-processes the text
-with a local AI model - all on your machine. We may add, change, or remove
+transcribes it locally on your device (on the CPU by default, or a GPU if you
+choose), and - within your plan limits - post-processes the text with a local
+AI model on your NVIDIA GPU - all on your machine. We may add, change, or remove
 features over time, and we'll give reasonable notice (in-app or by email) of
 changes that would materially reduce a paid feature you actively use.
 
