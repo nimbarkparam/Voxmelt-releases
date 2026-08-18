@@ -122,8 +122,8 @@ If you create an account, you may sign in with email + password **or** with
 
 Payments are handled by **Razorpay**. We never see or store your full card
 number. From Razorpay we receive only what's needed to operate your
-subscription: a customer/subscription identifier, your subscription status
-and renewal date, a country code (for tax), and (for display in your billing
+purchase: a customer/order identifier, your plan status and the date your
+access was granted, a country code (for tax), and (for display in your billing
 page) the last four digits of your card. Razorpay's own
 [privacy policy](https://razorpay.com/privacy/) governs the data it holds.
 
@@ -152,7 +152,7 @@ Because Voxmelt is a voice product, we want to be explicit:
 | Run the app | Local data only - never leaves your device | N/A |
 | Operate your account | Email, auth metadata | Contract |
 | Authenticate Google sign-in | Google email, name, avatar | Contract / consent |
-| Bill your subscription | Razorpay metadata | Contract |
+| Take payment for your plan | Razorpay metadata | Contract |
 | Send service email | Email | Legitimate interest |
 
 We do not use your data for advertising, ad personalisation, profiling, AI
@@ -166,7 +166,7 @@ features:
 | Processor | What they get | Why |
 |---|---|---|
 | Supabase | Account email, plan status, Google profile basics | Authentication + database |
-| Razorpay | Subscription/customer metadata | Payment processing |
+| Razorpay | Order/customer metadata | Payment processing |
 | GitHub | Anonymous app-update fetches | Public release distribution |
 | Google (if you use Google SSO) | The sign-in exchange itself | Authentication |
 

@@ -14,7 +14,7 @@ the free app locally without an account? The [EULA](./EULA.md) covers that -
 these Terms don't apply to you.) The gist:
 
 - Be 13+ (16+ in the EU) and keep your login to yourself.
-- **Pro and Studio auto-renew** until you cancel. Cancel anytime from
+- **Pro and Studio are one-time purchases.** No renewals, nothing to cancel. Manage your account from
   Account → Billing - one click, no phone call, no maze.
 - The app's transcripts and AI output can be wrong. **Reviewing them, and
   obeying recording-consent laws, is on you.**
@@ -93,7 +93,7 @@ You agree not to use Voxmelt to:
 We may suspend or terminate accounts we reasonably believe are breaking these
 rules, with or without notice depending on severity.
 
-## 6. Subscriptions and billing
+## 6. Plans and billing
 
 ### 6.1 Plans
 
@@ -101,25 +101,24 @@ Voxmelt offers a **Free** plan and paid **Pro** and **Studio** plans. Each
 plan's features and limits are listed at **voxmelt.com/pricing** and may change
 with advance notice.
 
-### 6.2 Pricing
+### 6.2 One-time purchase
 
-Paid plans are priced as shown at the time you subscribe. We'll give you at
-least **30 days' notice** of any price increase that affects your renewal.
+Pro and Studio are **one-time purchases**, not subscriptions. You pay once, at
+the price shown at the time of purchase, and the licence for that tier is yours
+permanently. There is no renewal, no recurring charge, and no expiry date.
 
-### 6.3 Auto-renewal
+A later price change never affects a purchase you have already made.
 
-Paid subscriptions **auto-renew** at the end of each billing period (monthly or
-annual) at the then-current price until you cancel. By subscribing, you
-authorise us (through our payment processor, Razorpay) to charge your selected
-payment method for each renewal.
+### 6.3 Nothing to cancel
 
-### 6.4 Cancellation - genuinely one click
+Because there is no recurring charge, there is nothing to cancel and no
+cancellation deadline to watch. Your payment method is charged exactly once, at
+the moment of purchase, through our payment processor Razorpay. We do not store
+your card details and we cannot charge you again without you starting a new
+purchase yourself.
 
-You can cancel any time from **voxmelt.com/account/billing** with a single
-"Cancel" action - no email, no phone call, no retention gauntlet. Cancelling
-stops **future** renewals only. You keep full paid access through the end of
-the cycle you've already paid for, after which your account reverts to the
-free tier and no further charges are made.
+If you no longer want to use Voxmelt, uninstall it. Your transcripts and
+settings are stored on your own machine and are removed with the app.
 
 ### 6.5 Refunds
 

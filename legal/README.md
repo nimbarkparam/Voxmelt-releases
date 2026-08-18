@@ -41,7 +41,7 @@ risks specific to this product:
 - **Recording consent** - the user is responsible for consent under wiretap and
   biometric-privacy laws (e.g. BIPA); we create/store no voiceprints. (Privacy
   §5, Terms §4.)
-- **Subscriptions** - auto-renewal with genuine one-click cancellation,
+- **Purchases** - one-time payment, perpetual licence, nothing to cancel,
   30-day price-change notice, 15-day no-card trial, no-refund-after-cycle with
   an outage exception and a statutory-rights carve-out.
 
@@ -54,9 +54,10 @@ broadly public, have a lawyer in your jurisdiction review all four and check:
 1. The **governing law** clause (India / Mumbai) matches your incorporation.
 2. The **liability cap** is enforceable where your users live (some EU states
    and California restrict how low you can cap consumer-software liability).
-3. The **subscription/auto-renewal disclosures** meet the rules where you sell
+3. The **one-time purchase disclosures** meet the rules where you sell
    (e.g. US state ARL laws + the FTC negative-option rule, EU consumer law).
-   Auto-renewal/cancellation mismatches are the #1 cause of chargebacks.
+   Billing disclosures that do not match what is actually charged are the #1
+   cause of chargebacks.
 4. The **privacy policy** lists exactly what you collect and matches what the
    app does (today: nothing but optional account + billing data).
 5. The **AI-output and recording-consent disclaimers** are sufficient for your
