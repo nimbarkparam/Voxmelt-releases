@@ -114,8 +114,9 @@ Free tier is free forever: 60 minutes of dictation per day, plus a daily allowan
 cleanup runs. No card required. Every install also starts with a 15-day full trial of
 everything.
 
-Paid plans are subscriptions: **Pro $9.99/month**, **Studio $14.99/month**. Managed at
-[voxmelt.com](https://voxmelt.com/pricing).
+Paid plans are **one-time purchases, not subscriptions**: **Pro $49 once**, **Studio $99
+once** (in India, Rs 3,999 and Rs 7,999). There is no renewal date, no recurring mandate
+and nothing to cancel. Managed at [voxmelt.com](https://voxmelt.com/pricing).
 
 ---
 
