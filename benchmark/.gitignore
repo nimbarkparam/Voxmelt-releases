@@ -1,0 +1,11 @@
+# Your audio and your results stay yours - none of this belongs in git.
+clips/*.wav
+clips/*.mp3
+clips/*.m4a
+clips/*.flac
+transcripts/*.txt
+!transcripts/*.ref.txt
+results.csv
+results-speed.csv
+__pycache__/
+*.pyc

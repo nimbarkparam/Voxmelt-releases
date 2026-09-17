@@ -50,6 +50,10 @@ offline forever.
 | **Voiceover** | Local text-to-speech, 4 personas x 8 tones = 32 voice combinations, WAV export. Runs on CPU. |
 | **Mini Mode** | An always-on-top pill you can drop anywhere. Dictate straight into whatever app has focus; polished text lands at your cursor. |
 | **Hands-free** | Rebindable global hotkeys plus voice commands (start, stop, copy, paste, switch template) so the pipeline runs without the keyboard. |
+| **Custom vocabulary** | Teach it the names and jargon it keeps mangling and it corrects them on either engine. Pro and Studio. |
+| **History** | A sessions library with a save mode you control, including one that writes nothing to disk at all. |
+
+**[→ Every feature in full, section by section](./docs/FEATURES.md)** - engines, templates, voiceover, hands-free operation, privacy architecture, requirements, tiers, and an honest list of what Voxmelt does not do.
 
 ---
 
@@ -59,11 +63,16 @@ Five real recorded clips, references written **before** recording, same scorer f
 engine, every raw output published. Full method and the per-clip tables:
 **https://voxmelt.com/benchmark**
 
-| Engine | Overall WER | Fast natural speech | Cold load | VRAM |
+**The harness that produced these numbers is in this repo, MIT licensed:
+[`benchmark/`](./benchmark/).** Runners, scorer, reference transcripts and the environment
+block. Nothing from Voxmelt needs to be installed - run it on your own audio and publish
+whatever you find.
+
+| Engine | Overall WER | Fast natural speech | Model load | VRAM |
 |---|---|---|---|---|
-| Whisper large-v3 (RTX 3080 Ti) | **7.8%** | 3.1% | 205s | 4.2 GB |
-| **Parakeet v3 (CPU only)** | 11.9% | **2.0%** | **3.9s** | **0** |
-| Whisper medium (GPU) | 22.8% | 18.4% | 45s | 2.3 GB |
+| Whisper large-v3 (RTX 3080 Ti) | **7.8%** | 3.1% | ~10 s warm | 4.2 GB |
+| **Parakeet v3 (CPU only)** | 11.9% | **2.0%** | **4.4 s** | **0** |
+| Whisper medium (GPU) | 22.8% | 18.4% | ~5 s warm | 2.3 GB |
 
 Read that table properly, because the headline number is not the interesting one:
 
@@ -122,9 +131,16 @@ and nothing to cancel. Managed at [voxmelt.com](https://voxmelt.com/pricing).
 
 ## About this repository
 
-This repo is the **public release mirror**. It exists so the auto-updater in every
-installed copy of Voxmelt can fetch its manifest anonymously, and so the installer has a
-stable public download URL. The application source is private.
+This repo is the **public mirror**. It exists so the auto-updater in every installed copy
+of Voxmelt can fetch its manifest anonymously, so the installer has a stable public
+download URL, and so the product's documentation and benchmark method are readable
+without visiting a marketing site. The application source is private.
+
+| Folder | What |
+|---|---|
+| [`benchmark/`](./benchmark/) | The benchmark harness, MIT licensed. Runners, scorer, reference transcripts, our full published run. |
+| [`docs/`](./docs/) | Complete feature reference. |
+| [`legal/`](./legal/) | EULA, privacy policy, terms, refund policy, synced from the source repo. |
 
 Each tagged release publishes:
 
@@ -137,8 +153,9 @@ Each tagged release publishes:
 | `voxmelt-stt-x64.zip` / `voxmelt-tts-x64.zip` | Frozen speech and voice engines, fetched on first run |
 
 Releases are cut by CI in the private source repo on every `v*` tag: a Windows runner
-builds and signs the bundle, generates `latest.json`, and publishes here. Nobody commits
-to this repo by hand.
+builds and signs the bundle, generates `latest.json`, and publishes here. No release asset
+is ever uploaded by hand; the documentation in `docs/` and `benchmark/` is maintained
+here directly.
 
 The [`legal/`](./legal/) folder mirrors the EULA, privacy policy, terms, and refund
 policy that the app and website link to. It is synced automatically from the source repo.
@@ -151,7 +168,9 @@ policy that the app and website link to. It is synced automatically from the sou
 
 - Website: **https://voxmelt.com**
 - Microsoft Store: **https://apps.microsoft.com/detail/9PFCDCVKK1NQ**
-- Benchmark and method: **https://voxmelt.com/benchmark**
+- Benchmark and method: **https://voxmelt.com/benchmark** (harness: [`benchmark/`](./benchmark/))
+- Every feature in full: [`docs/FEATURES.md`](./docs/FEATURES.md)
+- Who it is for: **https://voxmelt.com/use-cases**
 - Feature comparison vs other dictation tools: **https://voxmelt.com/compare**
 - Changelog: **https://voxmelt.com/changelog**
 - About and the story: **https://voxmelt.com/about**
