@@ -20,7 +20,7 @@ python run_parakeet_cpu.py       # transcribes on your CPU
 python wer.py transcripts/       # scores every transcript against the references
 ```
 
-First run downloads the Parakeet model (about 670 MB) from Hugging Face. After that it is fully offline. Any sample rate and channel count works; the runner downmixes to mono and resamples to 16 kHz exactly as our run did.
+First run downloads the Parakeet model (about 670 MB) from Hugging Face. After that it is fully offline. Any sample rate and channel count works; the runner downmixes to mono and resamples to 16 kHz exactly as our run did. `requirements.txt` pins onnx-asr 0.12.0 and onnxruntime 1.29.0, the versions in Voxmelt 1.20.0's speech engine, so it needs Python 3.11 to 3.14. Our published Parakeet run used onnxruntime 1.24.4; the results file says what 1.29.0 changes on our clips.
 
 The GPU side is optional and needs an NVIDIA card, `pip install faster-whisper`, and the CUDA 12 cuBLAS and cuDNN 9 libraries that [faster-whisper's README](https://github.com/SYSTRAN/faster-whisper) lists for GPU runs:
 
@@ -43,7 +43,7 @@ python wer.py transcripts/
 | `transcripts/*.ref.txt` | The reference text of our five clips - the scripts we read aloud. |
 | `clips/` | Where your audio goes. Ours is not published; see `clips/README.md`. |
 | `RESULTS-2026-07-16.md` | Our published run in full, with the environment block. |
-| `requirements.txt` | Two packages for the CPU path. |
+| `requirements.txt` | Three packages for the CPU path, with onnx-asr and onnxruntime pinned to Voxmelt 1.20.0's versions. |
 
 ---
 
