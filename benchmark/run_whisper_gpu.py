@@ -17,9 +17,9 @@ For every clips/NN_name.wav this script:
 
 USAGE
 -----
-    python run_voxmelt.py                 # large-v3 fp16 (the headline run)
-    python run_voxmelt.py --model medium  # the "8 GB card" story
-    python run_voxmelt.py --model large-v3 --compute int8_float16
+    python run_whisper_gpu.py                 # large-v3 fp16 (the headline run)
+    python run_whisper_gpu.py --model medium  # the "8 GB card" story
+    python run_whisper_gpu.py --model large-v3 --compute int8_float16
 
 Then score accuracy:
     python wer.py transcripts/

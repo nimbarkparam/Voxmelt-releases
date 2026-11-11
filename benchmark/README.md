@@ -1,6 +1,6 @@
 # Voxmelt benchmark harness
 
-**Every accuracy and speed figure published at [voxmelt.com/benchmark](https://voxmelt.com/benchmark) was produced by the code in this folder.** The runners, the scorer, the reference transcripts and the full environment block are here, so the method is open even though our own recordings are not.
+**The measured figures below come from our own runs, written up in full in `RESULTS-2026-07-16.md`, and the accuracy figures were scored by the `wer.py` in this folder.** The Whisper runs used `run_whisper_gpu.py` under its old name, `run_voxmelt.py`; the Parakeet run used an earlier script that loaded the app's own engine, which is why the Parakeet runner here is a standalone copy. The runners, the scorer, the reference transcripts and the full environment block are here, so the method is open even though our own recordings are not.
 
 Nothing from Voxmelt needs to be installed. `run_parakeet_cpu.py` is a standalone copy of the exact decode path the shipping app uses, with every parameter documented at the top of the file, so you can check it against anything we claim.
 
@@ -29,7 +29,7 @@ python run_whisper_gpu.py --model large-v3 --compute float16
 python wer.py transcripts/
 ```
 
-`wer.py` scores every `<name>.<engine>.txt` against the matching `<name>.ref.txt`, so both engines land in one table once you have run both. Drop in a competitor's output as `<name>.whatever.txt` and it gets scored with identical normalization.
+`wer.py` scores every `<name>.<engine>.txt` against the matching `<name>.ref.txt`, so both engines land in one `results.csv` once you have run both. Drop in a competitor's output as `<name>.whatever.txt` and it gets scored with identical normalization.
 
 ---
 
@@ -55,7 +55,7 @@ Ryzen 9 5900X, RTX 3080 Ti, five real recorded clips:
 |---|---|---|---|---|---|
 | Whisper large-v3 (CUDA) | **7.8%** | 3.1% | 10-15x realtime | ~10 s warm | 4.2 GB |
 | Parakeet TDT 0.6B v3 (CPU) | 11.9% | **2.0%** | 11-13x realtime | 4.4 s | **0.0 GB** |
-| Whisper medium (CUDA) | 22.8% | 18.4% | 14-19x realtime | ~5 s warm | 2.3 GB |
+| Whisper medium (CUDA) | 22.8% | 18.4% | 11-19x realtime | ~5 s warm | 2.3-2.4 GB |
 
 **Whisper large-v3 on a GPU is the more accurate engine overall.** We publish that because it is true, and it is why large-v3 still ships in the app. What made Parakeet-on-CPU the shipping default anyway:
 
@@ -81,9 +81,9 @@ Both the reference and the hypothesis go through the **same** normalization befo
 - lowercased
 - punctuation stripped
 - whitespace collapsed
-- spoken numbers folded to digits, so "three" and "3" are not counted as a mismatch
+- for WER, number words turned into digits one word at a time, so "three" and "3" are not counted as a mismatch, but "fifty eight" scores as "50 8" and an engine that writes "58" is charged two errors
 
-Applied identically to every engine, so no engine is advantaged. `wer.py` has no dependencies and is 150 lines - read it rather than taking this paragraph's word for it.
+Applied identically to every engine, so no engine is advantaged. `wer.py` has no dependencies and is about 150 lines - read it rather than taking this paragraph's word for it.
 
 The runners follow the same honesty rules:
 

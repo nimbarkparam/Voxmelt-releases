@@ -24,7 +24,7 @@ Both reference and hypothesis go through the SAME normalization:
   - lowercased
   - punctuation stripped
   - whitespace collapsed
-  - spoken numbers folded to digits ("three" -> "3", "first" -> "1")
+  - for WER, number words turned into digits one word at a time ("three" -> "3", "first" -> "1")
 so that "I have three" vs "I have 3" is not counted as an error. Applied
 equally to every engine, so no engine is advantaged.
 """
