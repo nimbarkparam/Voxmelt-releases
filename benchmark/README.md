@@ -22,7 +22,7 @@ python wer.py transcripts/       # scores every transcript against the reference
 
 First run downloads the Parakeet model (about 670 MB) from Hugging Face. After that it is fully offline. Any sample rate and channel count works; the runner downmixes to mono and resamples to 16 kHz exactly as our run did.
 
-The GPU side is optional and needs an NVIDIA card plus `pip install faster-whisper`:
+The GPU side is optional and needs an NVIDIA card, `pip install faster-whisper`, and the CUDA 12 cuBLAS and cuDNN 9 libraries that [faster-whisper's README](https://github.com/SYSTRAN/faster-whisper) lists for GPU runs:
 
 ```bash
 python run_whisper_gpu.py --model large-v3 --compute float16
@@ -40,7 +40,7 @@ python wer.py transcripts/
 | `run_parakeet_cpu.py` | CPU runner. Standalone, no Voxmelt install, GPU never touched. |
 | `run_whisper_gpu.py` | Whisper/CUDA runner, mirroring the app's refined pass. |
 | `wer.py` | The scorer. No dependencies. Same normalization for every engine. |
-| `transcripts/*.ref.txt` | The reference text of our five clips - what was actually said. |
+| `transcripts/*.ref.txt` | The reference text of our five clips - the scripts we read aloud. |
 | `clips/` | Where your audio goes. Ours is not published; see `clips/README.md`. |
 | `RESULTS-2026-07-16.md` | Our published run in full, with the environment block. |
 | `requirements.txt` | Two packages for the CPU path. |
@@ -59,10 +59,10 @@ Ryzen 9 5900X, RTX 3080 Ti, five real recorded clips:
 
 **Whisper large-v3 on a GPU is the more accurate engine overall.** We publish that because it is true, and it is why large-v3 still ships in the app. What made Parakeet-on-CPU the shipping default anyway:
 
-- It wins the **fast natural speech** clip, 2.0% against 3.1% - the clip that most resembles how people actually dictate, with filler and restarts.
+- It wins the **fast natural speech** clip, 2.0% against 3.1% - the clip that most resembles how people actually dictate, with filler.
 - It uses **zero VRAM**, so the whole GPU stays free for the LLM that cleans the text up. On a 12 GB card that removes the evict-and-reload cycle entirely.
 - Most of the remaining gap is **formatting, not mishearing**. Parakeet writes "58" and "$1800" where our reference scripts spell the numbers out, and the scorer counts each as an error. Character error rates are far closer: 7.3% against 6.1%.
-- **On a machine with no NVIDIA card the alternative is not large-v3** - it needs CUDA. It is a small Whisper model. Whisper medium scored 22.8% *with* a GPU; Parakeet scored 11.9% with none.
+- **On a machine with no NVIDIA card, the app's alternative is not large-v3.** It is a small Whisper model. Whisper medium scored 22.8% *with* a GPU; Parakeet scored 11.9% with none.
 
 Its real weakness is rare vocabulary: it mangled "atorvastatin" in the medical clip. For dense jargon, switch to large-v3.
 
@@ -83,7 +83,7 @@ Both the reference and the hypothesis go through the **same** normalization befo
 - whitespace collapsed
 - for WER, number words turned into digits one word at a time, so "three" and "3" are not counted as a mismatch, but "fifty eight" scores as "50 8" and an engine that writes "58" is charged two errors
 
-Applied identically to every engine, so no engine is advantaged. `wer.py` has no dependencies and is about 150 lines - read it rather than taking this paragraph's word for it.
+Applied identically to every engine. `wer.py` has no dependencies and is about 150 lines - read it rather than taking this paragraph's word for it.
 
 The runners follow the same honesty rules:
 
@@ -99,7 +99,7 @@ Stated here rather than left for you to find:
 
 - **Five clips is a small set.** It is real recorded speech rather than synthesized audio, which we consider the more useful trade, but it is not a statistically robust corpus.
 - **The clips are one person's voice**, one accent, one microphone. Your mileage will differ, which is the entire reason this harness exists.
-- **The references were written before recording**, so they are scripts read aloud rather than spontaneous speech - except the fast clip, which was deliberately delivered with natural filler.
+- **The references were written before recording**, so they are scripts read aloud rather than spontaneous speech. Even the fast clip's filler ("um", "like", "basically") is written into its script.
 - **No cloud engine column.** Running one means uploading the clips, and we chose not to. The method supports it (`transcripts/NN.cloud-whisper.txt`) and the scorer treats any added engine identically.
 - **It is first-party.** We ran it, on our hardware, on our voice. That is exactly why the code is in your hands.
 

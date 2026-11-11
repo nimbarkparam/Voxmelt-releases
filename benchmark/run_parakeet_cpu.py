@@ -2,8 +2,8 @@
 """
 Voxmelt benchmark - Parakeet-on-CPU runner (standalone).
 
-This reproduces the CPU dictation numbers published at voxmelt.com/benchmark
-on YOUR machine, with no part of Voxmelt installed. It is a faithful
+This runs the method behind the CPU numbers published at voxmelt.com/benchmark
+on YOUR clips and machine, with no part of Voxmelt installed. It is a faithful
 standalone copy of the decode path the shipping app uses: same model, same
 quantization, same execution provider, same thread caps, same session-edge
 silence pads. Those parameters are listed in DECODE PARAMETERS below so you

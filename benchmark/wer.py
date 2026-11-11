@@ -26,7 +26,7 @@ Both reference and hypothesis go through the SAME normalization:
   - whitespace collapsed
   - for WER, number words turned into digits one word at a time ("three" -> "3", "first" -> "1")
 so that "I have three" vs "I have 3" is not counted as an error. Applied
-equally to every engine, so no engine is advantaged.
+equally to every engine.
 """
 
 import sys, os, csv, re
