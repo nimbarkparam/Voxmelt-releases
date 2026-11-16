@@ -34,8 +34,8 @@ show a SmartScreen prompt on first run):
 
 **https://github.com/nimbarkparam/Voxmelt-releases/releases/latest/download/Voxmelt-Setup.exe**
 
-The installer is around 12 MB. Speech models download once on first run and then work
-offline forever.
+The installer is about 5 MB and the app about 12 MB on disk. On first run Voxmelt
+downloads its speech engine and model, about 840 MB, then works offline.
 
 ---
 
@@ -111,7 +111,8 @@ Or simpler: turn off your network and keep dictating. It keeps working.
 - Windows 10 (build 19041+) or Windows 11, 64-bit
 - Any modern 4-core CPU, 8 GB RAM, ~2 GB free disk
 - A microphone
-- **Optional, for the AI text studio only:** NVIDIA GPU with 6 GB+ VRAM, plus Ollama
+- **Optional:** an NVIDIA GPU with 6 GB+ VRAM plus Ollama for the AI text studio, and
+  an NVIDIA card with the one-time GPU add-on (about 1.3 GB) for Whisper above Tiny
 
 No macOS, no Linux, no mobile, no web version.
 
