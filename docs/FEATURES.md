@@ -175,7 +175,7 @@ No account is required for the app to run.
 - NVIDIA GPU with 6 GB or more of VRAM
 - [Ollama](https://ollama.com)
 
-The installer is around 12 MB. The speech and voice engines download once on first run and then work offline permanently.
+The installer is about 5 MB and the app about 12 MB on disk. The speech and voice engines download once on first run and then work offline permanently.
 
 ---
 
