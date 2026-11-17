@@ -33,7 +33,7 @@ This is the default engine and the whole product rather than a trial mode. Cover
 
 ### The Whisper engine, when you need it
 
-OpenAI's **Whisper** ships in the same app, from `tiny` through `large-v3`, on either CPU or CUDA. Switch to it for **around 100 languages**, or for the best accuracy on dense jargon and noisy audio. One toggle on the Models page; no separate download step or second install.
+OpenAI's **Whisper** ships in the same app: `tiny` on the CPU, every size up to Large v3 Turbo on an NVIDIA GPU. Switch to it for **around 100 languages**, or for the best accuracy on dense jargon and noisy audio. One toggle on the Models page; no separate download step or second install.
 
 On our published benchmark, Whisper large-v3 on a GPU is the more accurate engine overall at 7.8% word error rate against Parakeet's 11.9%. We say so plainly because it is true. [The full numbers, including the clips where our default loses](https://voxmelt.com/benchmark), and [the harness to reproduce them yourself](../benchmark/).
 
@@ -146,7 +146,7 @@ Everything stays on your machine in every mode. The choice is about what Voxmelt
 
 **Audio, transcripts, AI processing and voiceover all run on hardware you own.** The only network calls Voxmelt makes at all are the one-time model download, a licence check, and update checks. Never audio. Never transcripts.
 
-This is architecture rather than policy. The speech engine is a sandboxed subprocess that talks JSON over stdio and has no network access by design. Ollama is bound to localhost. There is no telemetry, no analytics, and no usage counter tied to your words.
+This is architecture rather than policy. The speech engine is a sandboxed subprocess that talks JSON over stdio and has no network access by design. Ollama is bound to localhost. There are no usage analytics or crash reports by default, and no usage counter tied to your words.
 
 **Verify it in sixty seconds**, which is the only version of this claim worth making:
 
@@ -219,4 +219,4 @@ Stated here so you can rule it out quickly rather than discover it after install
 - **Changelog:** [voxmelt.com/changelog](https://voxmelt.com/changelog)
 - **Support:** help@voxmelt.com
 
-Built by [Param Nimbark](https://voxmelt.com/about). Independent, and not affiliated with NVIDIA, Microsoft, OpenAI or Ollama - those names appear here only to describe the models and platforms Voxmelt runs on.
+Built by the Voxmelt team. Independent, and not affiliated with NVIDIA, Microsoft, OpenAI or Ollama - those names appear here only to describe the models and platforms Voxmelt runs on.
