@@ -44,7 +44,7 @@ downloads its speech engine and model, about 840 MB, then works offline.
 | | |
 |---|---|
 | **CPU dictation** | NVIDIA Parakeet TDT 0.6B v3 (int8 ONNX) transcribes on ordinary CPU cores at roughly 12x realtime. Ready about 4 seconds after launch. English plus 24 European languages. |
-| **Whisper engine** | Switch to OpenAI Whisper (tiny through large-v3, CPU or CUDA) for around 100 languages and the best accuracy on dense jargon. Both engines ship in the app. |
+| **Whisper engine** | Switch to OpenAI Whisper (tiny on the CPU, every size up to Large v3 Turbo on an NVIDIA GPU) for around 100 languages and the best accuracy on dense jargon. Both engines ship in the app. |
 | **AI text studio** | One click hands your transcript to a local model via [Ollama](https://ollama.com): rewrite, proofread, summarize, translate, restyle. 17 templates, 80+ tones, 6 personas. Needs an NVIDIA GPU. |
 | **Compose** | Paste any text and reshape it without recording anything. A private local alternative to pasting into a cloud chatbot. |
 | **Voiceover** | Local text-to-speech, 4 personas x 8 tones = 32 voice combinations, WAV export. Runs on CPU. |
@@ -176,6 +176,6 @@ policy that the app and website link to. It is synced automatically from the sou
 - Changelog: **https://voxmelt.com/changelog**
 - About and the story: **https://voxmelt.com/about**
 
-Built by [Param Nimbark](https://voxmelt.com/about). Independent, and not affiliated with
+Built by the Voxmelt team. Independent, and not affiliated with
 NVIDIA, Microsoft, or OpenAI - those names appear here only to describe the models and
 platforms Voxmelt runs on.
